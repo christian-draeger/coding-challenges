@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import './App.css';
 
-function App() {
+const App = () => {
   const  [helloMessage,setHelloMessage]= useState("")
 
   useEffect(() =>
